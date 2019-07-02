@@ -5,8 +5,9 @@
 ```bash
 #installasi complete software 
 apt-get update && apt-get upgrade -y
+apt-get install git g++-4.4 -y
 git clone https://github.com/speedlink0/tpproxy.git
-cd squid4-autoinstall-notproxy
+cd tpproxy
 chmod +x squid4.sh
 chmod 777 squid4.sh
 ./squid4.sh
